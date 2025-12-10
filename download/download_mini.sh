@@ -16,8 +16,8 @@ for split in {0..31}; do
     rm openscene_sensor_mini_lidar_${split}.tgz
 done
 
-mv openscene_v1.1/meta_datas mini_navsim_logs
-rm -r openscene_v1.1
+mv openscene-v1.1/meta_datas mini_navsim_logs
 
 mv openscene-v1.1/sensor_blobs mini_sensor_blobs
+
 rm -r openscene-v1.1
